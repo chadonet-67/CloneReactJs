@@ -1,0 +1,149 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+header{
+    background: #000;
+}
+.paragraph{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 15px;
+}
+span{
+    color: rgb(0, 204, 255);
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    padding-bottom: 5px;
+}
+h1{
+    color: rgb(0, 204, 255);
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+li{
+    list-style-type: none;
+     margin-right: 35px;
+     font-weight: 100;
+}
+ul li a{
+    text-decoration: none;
+    line-height: 1px;
+    color: white;
+}
+.active{
+    color: rgb(0, 204, 255);
+    padding-bottom: 10.5px;
+    border-bottom: 2px solid rgb(0, 204, 255);
+}
+ul li a:hover{
+    color: rgb(0, 204, 255);
+    padding-bottom: 10.5px;
+    border-bottom: 2px solid rgb(0, 204, 255);
+}
+.search{
+    color: rgba(255,255,255,.5);
+}
+.social a{
+text-decoration: none;
+color: white;
+margin-right: 20px;
+}
+/* corps de la page*/
+main{
+    position: relative;
+}
+section{
+    width: 65%;
+    padding-left: 90px;
+    padding-top: 30px;
+    
+}
+.title{
+    color: black;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.p1{
+    color: rgba(0,0,0,.5);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.p2{
+    line-height: 1.4;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.sect{
+    font-weight: 700;
+    color: black;
+}
+.text{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black;
+}
+.news {
+    display: block;
+    line-height: 1.4;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.news li{
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+.news li a{
+    background-color: aquamarine;
+    color: black;
+}
+aside{
+    position: absolute;
+    width: 30%;
+    height: 500px;
+    top: 130px;
+    right: 0;
+    padding-left: 40px;
+    background: rgba(128, 128, 128,.1);
+}
+
+aside a{
+    text-decoration: none;
+    line-height: 1.8;
+    color: rgba(0,0,0,.5);
+}
+aside .p2 a{
+    border-left: 2px solid rgb(0, 204, 255);
+    padding-left: 5px;
+}
+ aside .p1{
+     padding-top: 25px;
+ }
+.p7,.p8,.p9,.p10,.p11{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.p7{
+    margin-top: 15px;
+}
